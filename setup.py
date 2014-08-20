@@ -18,6 +18,7 @@ setup(
     author_email='naktinis@gmail.com',
     description=('Wrapper for Basecamp Next API.'),
     license="MIT",
+    use_2to3=True,
     keywords="basecamp bcx api",
     url='https://github.com/nous-consulting/basecamp-next',
     packages=['basecampx'],
